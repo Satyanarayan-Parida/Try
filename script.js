@@ -7,11 +7,11 @@ function showProject(projectNumber) {
 
     // Group 1 Projects
     if (projectNumber === 1) {
-        filePath = '../CSS_Getting_Started/HTML/index.html';
-        cssPath = '../CSS_Getting_Started/CSS/style.css';
+        filePath = './CSS_Getting_Started/HTML/index.html';
+        cssPath = './CSS_Getting_Started/CSS/style.css';
     } else if (projectNumber === 2) {
-        filePath = '../CSS_Getting_Started/HTML/practice_01.html';
-        cssPath = '../CSS_Getting_Started/CSS/practice_01.css';
+        filePath = './CSS_Getting_Started/HTML/practice_01.html';
+        cssPath = './CSS_Getting_Started/CSS/practice_01.css';
     }
     // Load HTML content
     if (filePath) {
