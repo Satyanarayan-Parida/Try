@@ -1,0 +1,111 @@
+/* Reset body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Styling for the top section */
+.section1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#Heading {
+    text-transform: uppercase;
+    color: #2D4059;
+    text-decoration: rgb(255, 180, 0) wavy underline;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.paragraph1 {
+    color: #EA5455;
+    font-family: sans-serif;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Flex layout for main content */
+.main-content {
+    display: flex;
+    gap: 20px;
+}
+
+/* Projects list styling */
+.project-list {
+    width: 30%;
+    padding-right: 20px;
+}
+
+.project-list li {
+    margin: 10px 0;
+    list-style-type: decimal;
+}
+
+/* Link styling */
+.project-list a {
+    text-decoration: none; /* Remove underline */
+    color: #007BFF; /* Link color */
+}
+
+.project-list a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* A4 paper styling for content viewer */
+.content-viewer {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    height: 600px;
+    overflow-y: auto;
+}
+
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+    background-color: #4CAF50; /* Adjust to match your design */
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white; /* Adjust based on your design */
+    min-width: 160px;
+    border-radius: 5px; /* Rounded corners for the dropdown */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black; /* Change to match your design */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px; /* Rounded corners for links */
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Optional: Style for links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1; /* Change background on hover */
+}
